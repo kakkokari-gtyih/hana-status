@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/misskey.flowers.ico",
     "slug": "",
     "status": "up",
-    "uptime": "6.62%",
-    "uptimeDay": "6.62%",
-    "uptimeWeek": "6.62%",
-    "uptimeMonth": "6.62%",
-    "uptimeYear": "6.62%",
-    "time": 665,
-    "timeDay": 665,
-    "timeWeek": 665,
-    "timeMonth": 665,
-    "timeYear": 665,
+    "uptime": "0.17%",
+    "uptimeDay": "0.17%",
+    "uptimeWeek": "0.17%",
+    "uptimeMonth": "0.17%",
+    "uptimeYear": "0.17%",
+    "time": 625,
+    "timeDay": 625,
+    "timeWeek": 625,
+    "timeMonth": 625,
+    "timeYear": 625,
     "dailyMinutesDown": {
-      "2024-11-12": 0
+      "2024-11-12": 8
     }
   },
   {
@@ -25,18 +25,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/s3.misskeyflowersusercontent.jp.ico",
     "slug": "data-storage",
     "status": "down",
-    "uptime": "2.05%",
-    "uptimeDay": "2.05%",
-    "uptimeWeek": "2.05%",
-    "uptimeMonth": "2.05%",
-    "uptimeYear": "2.05%",
-    "time": 67,
-    "timeDay": 67,
-    "timeWeek": 67,
-    "timeMonth": 67,
-    "timeYear": 67,
+    "uptime": "0.05%",
+    "uptimeDay": "0.05%",
+    "uptimeWeek": "0.05%",
+    "uptimeMonth": "0.05%",
+    "uptimeYear": "0.05%",
+    "time": 147,
+    "timeDay": 147,
+    "timeWeek": 147,
+    "timeMonth": 147,
+    "timeYear": 147,
     "dailyMinutesDown": {
-      "2024-11-12": 0
+      "2024-11-12": 8
     }
   },
   {
@@ -50,11 +50,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1009,
-    "timeDay": 1009,
-    "timeWeek": 1009,
-    "timeMonth": 1009,
-    "timeYear": 1009,
+    "time": 996,
+    "timeDay": 996,
+    "timeWeek": 996,
+    "timeMonth": 996,
+    "timeYear": 996,
     "dailyMinutesDown": {}
   }
 ]
