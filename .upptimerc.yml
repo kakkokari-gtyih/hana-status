@@ -1,36 +1,93 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: kakkokari-gtyih
+repo: hana-status # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: はなみすきー
+    url: https://misskey.flowers/healthz
+  - name: はなみすきー (Data Storage)
+    url: https://s3.misskeyflowersusercontent.jp
+    expectedStatusCodes:
+      - 200
+      - 404
+  - name: はなみすきー (Static Assets)
+    url: https://static-assets.misskey.flowers/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  # cname: demo.upptime.js.org
+  baseUrl: /hana-status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
+  name: はなみすきー 稼働状況
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
   introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+
+i18n:
+  activeIncidents: 発生中のインシデント
+  allSystemsOperational: 全サービス稼働中
+  incidentReport: "インシデント #$NUMBER に関する情報 →"
+  activeIncidentSummary: 開始日時：$DATE / $POSTS 件の投稿
+  incidentTitle: インシデント $NUMBER の詳細
+  incidentDetails: インシデントの詳細
+  incidentFixed: 修正済み
+  incidentOngoing: 発生中
+  incidentOpenedAt: "開始日時:"
+  incidentClosedAt: "終了日時:"
+  incidentViewOnGitHub: GitHubで詳細を見る
+  incidentCommentSummary: "投稿日時: $DATE"
+  incidentBack: ← インシデント一覧に戻る
+  pastIncidents: 過去のインシデント
+  pastIncidentsResolved: $MINUTES 分で完了 / $POSTS 件の投稿
+  liveStatus: 現在の状況
+  overallUptime: "稼働率: $UPTIME"
+  overallUptimeTitle: 稼働率
+  averageResponseTime: "平均レスポンス時間: $TIMEms"
+  averageResponseTimeTitle: 平均レスポンス時間
+  sevelDayResponseTime: レスポンス時間の1週間平均
+  responseTimeMs: レスポンス時間 (ms)
+  up: 稼働中
+  down: 停止中
+  degraded: レスポンス遅延あり
+  ms: ms
+  loading: 読込中
+  navGitHub: GitHub
+  footer: (c) 2024 Misskey.flowers Project
+  rateLimitExceededTitle: レートリミットを超えました
+  rateLimitExceededIntro: 1時間以内に実行できるリクエスト数を超えました。しばらく待ってからアクセスし直してください。GitHubのPersonal Access Tokenを追加してウェブサイトの閲覧を続行することもできます。
+  rateLimitExceededWhatDoesErrorMean: このエラーの意味は？
+  rateLimitExceededErrorMeaning: このウェブサイトでは、GitHub APIを使用して、ウェブサイトの状態に関するリアルタイムのデータにアクセスしています。デフォルトでは、GitHubは各IPアドレスに対して1時間あたり60リクエストを許可しています。
+  rateLimitExceededErrorHowCanFix: エラーを修正するには？
+  rateLimitExceededErrorFix: 1時間待てば、制限が解除されます。別の方法として、GitHub Personal Access Tokenを追加すると、1時間あたり5,000リクエスト利用できるようになります。
+  rateLimitExceededGeneratePAT: Personal Access Tokenを生成する方法についてはこちら
+  rateLimitExceededHasSet: Personal Access Tokenが設定されています。
+  rateLimitExceededRemoveToken: トークンを削除
+  rateLimitExceededGitHubPAT: GitHub Personal Access Token
+  rateLimitExceededCopyPastePAT: トークンを貼り付ける
+  rateLimitExceededSaveToken: トークンを保存
+  errorTitle: エラーが発生しました
+  errorIntro: 最新のステータス詳細を取得しようとしてエラーが発生しました。
+  errorText: 少し待ってから再度お試しください。
+  errorHome: ホームページに戻る
+  pastScheduledMaintenance: 過去のメンテナンス情報
+  scheduledMaintenance: メンテナンス情報
+  scheduledMaintenanceSummaryStarted: "開始日時: $DATE / 予定時間: $DURATION分"
+  scheduledMaintenanceSummaryStarts: "開始日時: $DATE / 予定時間: $DURATION分"
+  startedAt: "開始日時: "
+  startsAt: "開始日時: "
+  duration: 予定時間
+  durationMin: $DURATION分
+  incidentCompleted: 完了済み
+  incidentScheduled: メンテナンス
+  duration24H: 24時間
+  duration7D: 7日
+  duration30D: 30日
+  duration1Y: 1年
+  durationAll: すべて
+  locale: ja-JP
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
