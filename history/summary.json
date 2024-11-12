@@ -40,17 +40,19 @@
     "url": "https://static-assets.misskey.flowers/",
     "icon": "https://icons.duckduckgo.com/ip3/static-assets.misskey.flowers.ico",
     "slug": "static-assets",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.98%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.98%",
     "time": 978,
     "timeDay": 978,
     "timeWeek": 978,
     "timeMonth": 978,
     "timeYear": 978,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-11-12": 0
+    }
   }
 ]
