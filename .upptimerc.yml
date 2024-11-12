@@ -3,10 +3,10 @@ owner: kakkokari-gtyih
 repo: hana-status # The name of this repository
 
 sites:
-  - name: はなみすきー
+  - name: はなみすきー (Main)
     url: https://misskey.flowers/healthz
   - name: はなみすきー (Data Storage)
-    url: https://s3.misskeyflowersusercontent.jp
+    url: https://s3.misskeyflowersusercontent.jp/media/f52c4676-5ede-4f42-a466-a50df29d911d.webp
     expectedStatusCodes:
       - 200
       - 404
