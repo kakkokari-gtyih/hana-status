@@ -1,7 +1,7 @@
 url: https://misskey.flowers/healthz
-status: up
-code: 200
-responseTime: 740
-lastUpdated: 2024-12-07T23:10:52.455Z
+status: down
+code: 503
+responseTime: 722
+lastUpdated: 2024-12-08T20:14:19.875Z
 startTime: 2024-11-12T10:31:08.817Z
 generator: Upptime <https://github.com/upptime/upptime>
