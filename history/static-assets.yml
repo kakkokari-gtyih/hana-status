@@ -1,7 +1,7 @@
 url: https://static-assets.misskey.flowers/
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-04-08T15:32:48.372Z
+status: up
+code: 200
+responseTime: 860
+lastUpdated: 2025-04-08T16:21:44.473Z
 startTime: 2024-11-12T10:17:59.921Z
 generator: Upptime <https://github.com/upptime/upptime>
